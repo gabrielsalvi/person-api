@@ -41,5 +41,5 @@ public class Person
 
     // the cascade purpose is to insert a person and its phone without persist the phone previously
     @OneToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
-    private List<Phone> phones = new ArrayList<>();
+    private List<Phone> phones;
 }
