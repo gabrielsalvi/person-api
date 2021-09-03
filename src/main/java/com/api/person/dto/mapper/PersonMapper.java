@@ -1,10 +1,9 @@
-package com.api.person.mapper;
+package com.api.person.dto.mapper;
 
 import com.api.person.dto.request.PersonDTO;
 import com.api.person.entity.Person;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
-import org.mapstruct.Mappings;
 import org.mapstruct.factory.Mappers;
 
 @Mapper
